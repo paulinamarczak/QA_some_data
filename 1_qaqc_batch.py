@@ -1,5 +1,5 @@
-#FIP2 MC_FIRE GCBM spatial outputs qa/qc 
-#Script outputs table that checks for certain number of pixels/sum of various output GCBM folders
+#... spatial outputs qa/qc 
+#Script outputs table that checks for certain number of pixels/sum of various output ... folders
 
 #Paulina Marczak,November 19 2019
 # Import system modules
@@ -41,8 +41,8 @@ print ("Importing modules.")
 if not os.path.exists(qa_raw_output_folder):
     os.makedirs(qa_raw_output_folder)
 
-#check_folder= "M:\\Spatially_explicit\\01_Projects\\21_BC_wildfires\\MC_Fire\\05_working\\revise_future_fire_salvage\\revised\\high"
-#check_folder= "O:\\GCBM\\21_BC_wildfires\\uncertainty_analysis\\05_working\\gcbm_runs"
+#check_folder= "M:\\..."
+#check_folder= "O:\\..."
 
 #print "Accessing network folder to copy QA layer data from", check_folder
 
